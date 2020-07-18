@@ -1,0 +1,216 @@
+/* flex弹性布局 */
+/* f,i,j,a,ac,fg,fs,fa,fn,as */
+
+/* 基本组合 */
+
+.f,
+.flex {
+  display: flex;
+}
+
+.i-f,
+.inline-flex {
+  display: inline-flex;
+}
+
+.f-r-r,
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.f-c,
+.flex-column {
+  flex-direction: column;
+}
+
+.f-c-r,
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.f-w,
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.f-w-r,
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.j-e,
+.justify-end {
+  justify-content: flex-end;
+}
+
+.j-c,
+.justify-center {
+  justify-content: center;
+}
+
+.j-b,
+.justify-between {
+  justify-content: space-between;
+}
+
+.j-a,
+.justify-around {
+  justify-content: space-around;
+}
+
+.a-s,
+.align-start {
+  align-items: flex-start;
+}
+
+.a-e,
+.align-end {
+  align-items: flex-end;
+}
+
+.a-c,
+.align-center {
+  align-items: center;
+}
+
+.a-b,
+.align-baseline {
+  align-items: baseline;
+}
+
+.ac-start {
+  align-content: flex-start;
+}
+
+.ac-end {
+  align-content: flex-end;
+}
+
+.ac-center {
+  align-content: center;
+}
+
+.ac-between {
+  align-content: space-between;
+}
+
+.ac-around {
+  align-content: space-around;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.fg-1,
+.flex-grow {
+  flex-grow: 1;
+}
+
+.fg-2,
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.fg-3,
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
+.fs-0,
+.flex-shrink {
+  flex-shrink: 0;
+}
+
+.fa,
+.flex-auto {
+  /* 1 1 auto */
+  flex: auto;
+}
+
+.fn,
+.flex-none {
+  /* 0 0 auto */
+  flex: none;
+}
+
+.as-start {
+  align-self: flex-start;
+}
+
+.as-end {
+  align-self: flex-end;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.as-baseline {
+  align-self: baseline;
+}
+
+.as-stretch {
+  align-self: stretch;
+}
+
+/* 常用组合 */
+
+.f-fw {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-ac,
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.f-jc,
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.f-jb,
+.flex-justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-cc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-cb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-y {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-y-ac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-y-cc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-y-jb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

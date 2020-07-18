@@ -1,0 +1,97 @@
+/* 定位 */
+
+/* 基本组合 */
+
+.z {
+  z-index: -1;
+}
+
+.z-9 {
+  z-index: 9;
+}
+
+.z-99 {
+  z-index: 99;
+}
+
+.z-999 {
+  z-index: 999;
+}
+
+.z-9999 {
+  z-index: 9999;
+}
+
+.z-99999 {
+  z-index: 99999;
+}
+
+.rel,
+.relative {
+  position: relative;
+}
+
+.abs,
+.absolute {
+  position: absolute;
+}
+
+.fix,
+.fixed {
+  position: fixed;
+}
+
+.top {
+  top: 0;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.left {
+  left: 0;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.tra,
+.transform {
+  transform: translate(-50%, -50%);
+}
+
+.tra-x,
+.transform-x {
+  transform: translateX(-50%);
+}
+
+.tra-y,
+.transform-y {
+  transform: translateY(-50%);
+}
+
+/* 常用组合 */
+
+.abs-cc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fix-cc {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

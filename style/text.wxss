@@ -1,0 +1,127 @@
+/* 文本样式 */
+/* fs,fw,lh,ta,wb,to,lc */
+
+/* 基本组合 */
+
+.fs-16 {
+  font-size: 16rpx;
+}
+
+.fs-18 {
+  font-size: 18rpx;
+}
+
+.fs-20 {
+  font-size: 20rpx;
+}
+
+.fs-22 {
+  font-size: 22rpx;
+}
+
+.fs-24 {
+  font-size: 24rpx;
+}
+
+.fs-26 {
+  font-size: 26rpx;
+}
+
+.fs-28 {
+  font-size: 28rpx;
+}
+
+.fs-30 {
+  font-size: 30rpx;
+}
+
+.fs-32 {
+  font-size: 32rpx;
+}
+
+.fs-34 {
+  font-size: 34rpx;
+}
+
+.fs-36 {
+  font-size: 36rpx;
+}
+
+.fs-38 {
+  font-size: 38rpx;
+}
+
+.fs-40 {
+  font-size: 40rpx;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.lh,
+.line-height {
+  line-height: 1.4rem;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.ta-justify {
+  /* 文本两端对齐，最后一行无效 */
+  text-align: justify;
+}
+
+.wb-all {
+  word-break: break-all;
+}
+
+/* 常用组合 */
+
+.to-ell,
+.to-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lc-2,
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.lc-3,
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

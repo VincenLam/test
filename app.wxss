@@ -1,0 +1,10 @@
+/**app.wxss**/
+@import "/style/main.wxss";
+@import "/template/style.wxss";
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
